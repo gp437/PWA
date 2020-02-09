@@ -6,11 +6,11 @@ var appShellFiles = [
   '/PWA/index.html',
   '/PWA/favicon.ico',
 ];
-var gamesImages = [];
-for(var i=0; i<games.length; i++) {
-  gamesImages.push('data/img/'+games[i].slug+'.jpg');
-}
-var contentToCache = appShellFiles.concat(gamesImages);
+// var gamesImages = [];
+// for(var i=0; i<games.length; i++) {
+//   gamesImages.push('data/img/'+games[i].slug+'.jpg');
+// }
+// var contentToCache = appShellFiles.concat(gamesImages);
 
 // Installing Service Worker
 self.addEventListener('install', function(e) {
