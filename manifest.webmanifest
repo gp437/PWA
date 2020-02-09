@@ -1,0 +1,22 @@
+{
+    "name": "afterschool activities and classes",
+    "short_name": "afterschool",
+    "description": "cw2 pwa  - afterschool activities",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "type": "image/ico",
+        "sizes": "480x480"
+      },
+      {
+        "src": "/images/icons-512.png",
+        "type": "image/png",
+        "sizes": "500x500"
+      }
+    ],
+    "start_url": "https://gp437.github.io/cw2-app-pwa-rest-api-git/cw2",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "https://gp437.github.io/cw2-app-pwa-rest-api-git/cw2",
+    "theme_color": "#3367D6"
+  }
